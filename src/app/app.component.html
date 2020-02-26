@@ -1,4 +1,10 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<!-- Property Binding -->
+
+<h3>Example 1</h3>
+<div [id]='generatedId'>{{generatedId}}</div>
+
+<h3>Example 2</h3>
+<people [person]='title'>{{title}}</people>
+<button (click)='changeTitle()'>Change Title</button>
+
+

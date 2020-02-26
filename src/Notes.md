@@ -7,7 +7,10 @@
         - the primary way of binding data in Angular. 
         - syntax: [property]
         - binds data to a property of an element
-          - see 
+          - see example 1
+          - when you change the bound property (id in my example) then it automatically updates the view
+        - can also be used to pass data to a components
+          - see example 2
        
 
 ## Communication through the parent component
